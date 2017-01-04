@@ -23,7 +23,7 @@ AgeBasedMSY <- function(data){
   b2<-data$b2              #Parameter for recruitment curve
   M<-data$M                #Natural Mortality
   
-  
+   
   ########Abundance Calculations Begin Here##############
   
   #Abundance for Year 1
@@ -141,3 +141,4 @@ print(EquilibriumY)
 EquilibriumSSB <- mean(Output$SSB[26:50])
 print(EquilibriumSSB)
 
+#This is a test of github
